@@ -1,13 +1,39 @@
   export const themeData = {
-  "logo": "https://vuejs.org/images/logo.png",
+  "repo": "zjfcool/zjfcool.github.io",
+  "navbar": [
+    {
+      "text": "前端笔记",
+      "children": [
+        {
+          "text": "面试小计",
+          "link": "/fe_subtotal/interview/"
+        },
+        {
+          "text": "Vue",
+          "link": "/fe_subtotal/vue/"
+        },
+        {
+          "text": "React",
+          "link": "/fe_subtotal/react/"
+        },
+        {
+          "text": "js基础",
+          "link": "/fe_subtotal/js/"
+        }
+      ]
+    },
+    {
+      "text": "随笔",
+      "link": "/essay/"
+    }
+  ],
   "locales": {
     "/": {
       "selectLanguageName": "English",
       "danger": "WARNING"
     }
   },
-  "navbar": [],
-  "repo": null,
+  "logo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",

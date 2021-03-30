@@ -1,31 +1,9 @@
-# helllo
-ssdfsdf
-## dd
-sfsfsdfs
-[[toc]]
-
-sfsfs
-fsdf
-fds
-fs
-s
-f
-s
-fs
-f
-sf
-s
-  dsfsd
-sfsd
-## dsfsf
-helsf
-sfs
-sf
-
-sf
-
-f
-f
-```js
-var hello=""
-```
+---
+home: true
+heroImage: /logo.png
+# heroText: 新疆棉花
+actions:
+  - text: 去查阅 →
+    link: /
+    type: primary
+---
