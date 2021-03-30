@@ -18,12 +18,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1616830028000,
+    "updatedTime": 1617071014000,
     "contributors": [
       {
         "name": "zjfcool",
         "email": "2568696196@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

@@ -1,24 +1,25 @@
   export const themeData = {
   "repo": "zjfcool/zjfcool.github.io",
+  "editLink": false,
   "navbar": [
     {
       "text": "前端笔记",
       "children": [
         {
-          "text": "面试小计",
-          "link": "/fe_subtotal/interview/"
+          "text": "面试",
+          "link": "/fe_note/interview/"
         },
         {
           "text": "Vue",
-          "link": "/fe_subtotal/vue/"
+          "link": "/fe_note/vue/"
         },
         {
           "text": "React",
-          "link": "/fe_subtotal/react/"
+          "link": "/fe_note/react/"
         },
         {
           "text": "js基础",
-          "link": "/fe_subtotal/js/"
+          "link": "/fe_note/js/"
         }
       ]
     },
@@ -37,7 +38,6 @@
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebar": "auto",
-  "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
   "lastUpdatedText": "Last Updated",

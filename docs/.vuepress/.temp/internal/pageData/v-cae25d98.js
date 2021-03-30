@@ -8,8 +8,14 @@ export const data = {
   "headers": [],
   "filePathRelative": "fe_subtotal/react/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1617071014000,
+    "contributors": [
+      {
+        "name": "zjfcool",
+        "email": "2568696196@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 
