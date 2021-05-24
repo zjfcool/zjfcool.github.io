@@ -45,7 +45,7 @@ ku config [options] //设置配置文件
 
 在什么也不做的情况下，在命令窗口输入这些命令肯定会报错的：
 
-![image-20210522142716030](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20210522142716030.png)
+![1.png](./assets/cli/1.png)
 
 要想使命令行可用，我们需要配置一下package.json文件,如下：[关于package.json中bin字段的详细介绍](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#bin)
 
@@ -70,7 +70,7 @@ console.log('test')
 
 在命令行中输入`ku`命令之前，我们需要把当前的项目关联到全局中（可以理解为npm install ku-cli -g），在当前项目的目录执行`npm link`：[npm link详细介绍](https://docs.npmjs.com/cli/v7/commands/npm-link)
 
-![image-20210522144643300](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20210522144643300.png)
+![2.png](./assets/cli/2.png)
 
 我们看到成功打印出了`test`
 
@@ -134,13 +134,13 @@ program.parse(process.argv)
 
 接下来我们测试一下：
 
-![image-20210522153548179](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20210522153548179.png)
+![3.png](./assets/cli/3.png)
 
 ## 实现项目创建
 
 ### 交互逻辑流程
 
-![ku create 流程 (1)](C:\Users\DELL\Downloads\ku create 流程 (1).png)
+![4.png](./assets/cli/4.png)
 
 这里主要是要判断创建的项目是否有重名的，有重名的并且没有`--force`选项的情况下，会有一个选择覆盖呢还是退出的逻辑：
 
@@ -195,7 +195,7 @@ export default async (projectName, options) => {
 
 
 
-![ku 下载模板流程](C:\Users\DELL\Downloads\ku 下载模板流程.png)
+![5.png](./assets/cli/5.png)
 
 根据流程图可以看出我们需要在github上创建一个organization，里面会单独存放各种模板，每个repository打一些tags，通过organization/repo#tag获取模板内容，这里面会有下载失败的情况，下载失败了会重新下载直到成功，下载资源成功后会自动进入目录下载依赖。
 
