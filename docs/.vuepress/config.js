@@ -22,14 +22,27 @@ module.exports = {
     themeConfig: {
         repo: 'zjfcool/zjfcool.github.io',
         editLink: false,
+        sidebar: {
+            '/fe-note/engineering/': [
+                {
+                    isGroup: true,
+                    text: 'CLI相关',
+                    children: [
+                        '/fe-note/engineering/cli.md'
+                    ],
+                },
+            ]
+        },
         navbar: [
             {
                 text: '前端笔记',
                 children: [
-                    { text: '面试', link: '/fe_note/interview/' },
-                    { text: 'Vue', link: '/fe_note/vue/' },
-                    { text: 'React', link: '/fe_note/react/' },
-                    { text: 'js基础', link: '/fe_note/js/' }
+                    { text: '面试', link: '/fe-note/interview/' },
+                    { text: 'js基础', link: '/fe-note/js/' },
+                    { text: 'Vue', link: '/fe-note/vue/' },
+                    { text: 'React', link: '/fe-note/react/' },
+                    { text: 'nodejs', link: '/fe-note/nodejs/' },
+                    { text: '前端工程化', link: '/fe-note/engineering/' },
                 ]
             },
             {
