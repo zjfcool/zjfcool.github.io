@@ -31,6 +31,15 @@ module.exports = {
                         '/fe-note/engineering/cli.md'
                     ],
                 },
+            ],
+            '/fe-note/tip/': [
+                {
+                    isGroup: true,
+                    text: '小记',
+                    children: [
+                        '/fe-note/tip/echarts.md'
+                    ],
+                },
             ]
         },
         navbar: [
@@ -43,6 +52,7 @@ module.exports = {
                     { text: 'React', link: '/fe-note/react/' },
                     { text: 'nodejs', link: '/fe-note/nodejs/' },
                     { text: '前端工程化', link: '/fe-note/engineering/' },
+                    { text: '小记', link: '/fe-note/tip/' }
                 ]
             },
             {
