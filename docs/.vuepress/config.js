@@ -37,7 +37,8 @@ module.exports = {
                     isGroup: true,
                     text: '小记',
                     children: [
-                        '/fe-note/tip/echarts.md'
+                        '/fe-note/tip/echarts.md',
+                        '/fe-note/tip/es6.md'
                     ],
                 },
             ]
@@ -58,6 +59,10 @@ module.exports = {
             {
                 text: "随笔",
                 link: "/essay/"
+            },
+            {
+                text: "工具",
+                link: "/tool/"
             }
         ],
 
