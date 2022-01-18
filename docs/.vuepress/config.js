@@ -38,7 +38,8 @@ module.exports = {
                     text: '小记',
                     children: [
                         '/fe-note/tip/echarts.md',
-                        '/fe-note/tip/es6.md'
+                        '/fe-note/tip/es6.md',
+                        '/fe-note/tip/learn-source.md'
                     ],
                 },
             ]
